@@ -36,11 +36,6 @@ public class Demo3 {
 			System.out.println("键："+ key+" 值："+ map.get(key));
 		}
 		
-		
-
-
-
-
 
 		//map集合的遍历方式二： 使用values方法进行 遍历//缺点： values方法只能返回所有 的值，没有键。
 		Collection<String>  c = map.values(); //values() 把所有的值存储到一个Collection集合中返回。
