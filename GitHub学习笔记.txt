@@ -1,0 +1,17 @@
+配置用户名和邮箱
+git config --global user.name 自己的用户名
+git config --global user.email 注册邮箱
+
+查看用户名和邮箱
+git config --global user.name
+git config --global user.email
+
+查看帮助文档
+git config --help
+git help
+
+与SVN命令区别
+svn : checkout   git : clone   检出
+svn : update      git : pull
+svn : commit     git : push 
+                        git : commit 单独提交给本地
